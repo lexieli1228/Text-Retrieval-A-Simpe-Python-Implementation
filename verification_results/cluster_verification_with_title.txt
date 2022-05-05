@@ -1,0 +1,4 @@
+the purity result of original vector is: 0.3496629213483146
+the purity result of pca vector is: 0.538876404494382
+the purity result of original title vector is: 0.2687640449438202
+the purity result of title pca vector is: 0.24719101123595505

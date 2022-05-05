@@ -1,0 +1,2 @@
+the purity result of original vector is: 0.4435955056179775
+the purity result of pca vector is: 0.6004494382022472
