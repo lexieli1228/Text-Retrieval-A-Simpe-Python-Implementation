@@ -145,7 +145,7 @@ def cal_words_synonym(tf_idf_vector_result, dictionary_vocab):
 def cal_keywords_vec(tf_idf_vector_result, dictionary_vocab, data_x):
     keywords_vec = np.zeros((len(data_x), len(dictionary_vocab)))
     for i in range(len(data_x)):
-        temp_vec = tf_idf_vector_result.iloc[i]
+        temp_vec = tf_idf_vector_result[str(i)]
         temp_vec_dict = temp_vec.to_dict()
         temp_vec_dict_sort = sorted(temp_vec_dict.items(), key=lambda x:x[1], reverse = True)
         for j in range(0, key_words_num + 1):
