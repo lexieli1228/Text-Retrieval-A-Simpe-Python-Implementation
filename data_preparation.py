@@ -138,7 +138,8 @@ def cal_words_synonym(tf_idf_vector_result, dictionary_vocab):
     
         string_i += '\n'
         file_synonym.write(string_i)
-        file_synonym.close()
+    
+    file_synonym.close()
 
 
 def cal_keywords_vec(tf_idf_vector_result, dictionary_vocab, data_x):
